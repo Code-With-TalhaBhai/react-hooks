@@ -1,0 +1,1 @@
+`useLayoutEffect` is a React hook that works similarly to useEffect, but it fires synchronously after all DOM mutations. This makes it useful for cases where you need to make DOM updates before the browser paints the screen, avoiding flickering or layout shifts. It runs before UI paints. Unlike `useEffect` which runs after UI paints.

@@ -1,0 +1,1 @@
+This hook is similar to UseState, but is has more reliable when it comes to maintaining complex state, having object of multiple values. In this hook, `reducer` is a function in which you define all your logic according to respective actions and `dispatch` is a function which takes object as argument in which all the types of reducer is defined.

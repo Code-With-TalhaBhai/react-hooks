@@ -1,0 +1,1 @@
+This hook is used for Global State Management. Normally, parents pass data to its child through props, but through `Context API` child can also send data to its parent, maintaining the global state

@@ -1,0 +1,1 @@
+This hook is used to directly access the DOM's element, and it doesn't perform re-render when it performs some actions

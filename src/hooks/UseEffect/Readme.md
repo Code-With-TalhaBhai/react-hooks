@@ -1,0 +1,1 @@
+This hook is similar to ComponentDidMount(), when it has an empty dependency list, but works as ComponentDidUpdate(), when it has (state, props)etc. in dependency list, it runs after the UI Paints.

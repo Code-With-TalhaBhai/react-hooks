@@ -1,0 +1,1 @@
+This is used for state managment, and every time performs re-render when the state updates.

@@ -1,0 +1,1 @@
+This hook is used to avoid re-render again if the provided props or value is memoized or same as the previous-consecutive render. This hook is mostly used to avoid re-render of expensive computations.
