@@ -1,0 +1,1 @@
+This hook helps manage state transitions by allowing you to mark certain updates as non-urgent. By using this hook, `startTransition` function provided by `useTransition`, when you wrap the state-update in this function, it marks this state update as non-urgent update.

@@ -1,0 +1,1 @@
+This hook is used when you need to pass a delay props usually to some expensive or slow components.
