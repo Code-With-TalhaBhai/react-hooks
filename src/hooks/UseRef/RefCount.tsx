@@ -8,10 +8,10 @@ function RefCount() {
     const prevCount = useRef(0)
 
     useEffect(() => {
-    console.log('refCount re-renders inside useEffect')
-    // setCount(count+1)
+    console.log('refCount re-renders inside useEffect count ',count)
       prevCount.current = count
     }, [count])
+    // }, [])
     
     return (
         <div>

@@ -2,7 +2,6 @@ import { useState } from 'react'
 import State from './hooks/UseState/State'
 import './App.css'
 import Effect from './hooks/UseEffect/Effect'
-import Parent from './hooks/UseContext/Context'
 import Reducer from './hooks/UseReducer/Reducer'
 import Ref from './hooks/UseRef/Ref'
 import RefCount from './hooks/UseRef/RefCount'
@@ -14,6 +13,7 @@ import Transition from './hooks/UseTransition/Transition'
 import Deferr from './hooks/Usedeferred/deferr'
 import Use from './hooks/Use/Use'
 import Simple from './hooks/Use/Simple'
+import Context from './hooks/UseContext/Context'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,7 +22,7 @@ function App() {
     <>
       {/* <State/> */}
       {/* <Effect/> */}
-      {/* <Parent/> */}
+      {/* <Context/> */}
       {/* <Reducer/> */}
 
       {/* Both Ref Concept */}
@@ -37,8 +37,8 @@ function App() {
       {/* <Deferr/> */}
 
       {/* both use hook */}
-      {/* <Use/> */}
-      <Simple/>
+      <Use/>
+      {/* <Simple/> */}
     </>
   )
 }

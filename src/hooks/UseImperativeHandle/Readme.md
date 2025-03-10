@@ -1,1 +1,1 @@
-This is a React-hook that allows a parent component to customize the instance value when using React.forwardRef. This is useful when you want to control what methods a parent can call on child
+This is a React-hook that allows a parent component to customize the instance value when using `React.forwardRef()`. This is useful when you want to control what methods a parent can call on child

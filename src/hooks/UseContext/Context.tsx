@@ -3,10 +3,10 @@ import { createContext, useContext, useState } from "react"
 const GlobalContext = createContext<any>(null)
 
 
-export default function Parent(){
+export default function Context(){
     const [count, setcount] = useState(0)
     
-    console.log('Re-render from Parent')
+    console.log('Re-render from Parent Context')
 
     return (
         <GlobalContext.Provider value={{count,setcount}}>

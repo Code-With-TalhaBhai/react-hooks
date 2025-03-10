@@ -6,7 +6,7 @@ function LayoutEffect() {
     const myref : any = useRef(null) 
     const [height,setHeight] = useState(0)
 
-    // Create flickering
+    // Create flickering - Runs after UI paints
     // useEffect(()=>{
     //     console.log('useEffect')
     //     if (myref.current){
@@ -14,7 +14,7 @@ function LayoutEffect() {
     //     }
     // },[])
 
-    // Avoid flickering 
+    // Avoid flickering -> Runs before UI paints
     useLayoutEffect(()=>{
         console.log('useLayoutEffect')
         if (myref.current){
